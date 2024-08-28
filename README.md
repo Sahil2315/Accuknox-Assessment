@@ -14,4 +14,4 @@ To get started,
 - The Code should now Run.
 ## Note: Node Version - 20.11.0; React Version - 18.3.1; React-DOM Version - 18.3.1; Redux-Toolkit Version - 2.2.7; React-Redux Version - 9.1.2 
 
-### Thank You for the Opportunity of Participating in the Screening Round. I Sincerely hope that the Task was Completed upto your Standards
+### Thank You for the Opportunity of Participating in the Screening Round. I Sincerely hope that the Task was Completed upto your Standards.
