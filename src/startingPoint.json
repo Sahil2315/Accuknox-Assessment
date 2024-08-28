@@ -1,0 +1,66 @@
+[
+    {
+        "name": "CSPM",
+        "displayName": "CSPM Executive Dashboard",
+        "widgets": [
+            {
+                "name": "Widget1",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            },
+            {
+                "name": "Widget2",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            }
+        ]
+    },
+    {
+        "name": "CWPP",
+        "displayName": "CWPP Dashboard",
+        "widgets": [
+            {
+                "name": "Widget1",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            },
+            {
+                "name": "Widget2",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            }
+        ]
+    },
+    {
+        "name": "Image",
+        "displayName": "Registry Scan",
+        "widgets": [
+            {
+                "name": "Widget1",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            },
+            {
+                "name": "Widget2",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            }
+        ]
+    },
+    {
+        "name": "Ticket",
+        "displayName": "Ticket",
+        "widgets": [
+            {
+                "name": "Widget1",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            },
+            {
+                "name": "Widget2",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mi sed varius rutrum, massa orci dapibus lectus, id gravida dolor est vulputate magna. Curabitur mi magna, elementum finibus justo sed, congue fermentum odio.",
+                "checked": true
+            }
+        ]
+    }
+]
