@@ -1,50 +1,17 @@
-# React + TypeScript + Vite
+# Accuknox Assessment for Frontend Trainees
+## Dynamic React Based Dashboard
+### Created using React and Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To get started, 
+- Copy the Github Repository Link Provided in the Submission or straight from the browser.
+- Create a Folder with the Desired Folder-Name (eg. Sahil Nigam Dashboard).
+- Inside the folder that you just created, open terminal / git bash by right-clicking inside the folder.
+- Now enter `git clone https://github.com/Sahil2315/Accuknox-Assessment` in the terminal (don't close the terminal yet).
+- Now enter `npm install` in that same folder / directory from within the terminal.
+- Now run `npm run dev` in that same terminal.
+- The React Development Server must now start and provide you with a URL that looks something like this `http://localhost:5173` in the terminal.
+- Go to that URL by either `ctrl + clicking on that link` or `copying the link into your browser`.
+- The Code should now Run.
+## Note: Node Version - 20.11.0; React Version - 18.3.1; React-DOM Version - 18.3.1; Redux-Toolkit Version - 2.2.7; React-Redux Version - 9.1.2 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Thank You for the Opportunity of Participating in the Screening Round. I Sincerely hope that the Task was Completed upto your Standards.
