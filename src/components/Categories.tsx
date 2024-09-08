@@ -37,7 +37,7 @@ const Categories = () => {
                                 {
                                     widList.map((item: widgetTS, index: number) => {
                                         return(
-                                            <div onClick={() => {changeWidFunction(outerIndex, index)}} key={index} className={`container ${item.checked ? '' : 'hidden'} flex flex-col ${theme ? "bg-slate-800 shadow-gray-800" : "bg-white shadow-slate-300" } py-2 px-3 rounded-lg w-[30%] h-[220px] overflow-y-scroll ${index > 0 ? "ml-6": ""} ${index > 2? "mt-2" : ""} shadow-lg hover:shadow-none cursor-pointer`}>
+                                            <div onClick={() => {changeWidFunction(outerIndex, index)}} key={index} className={`container ${item.checked ? '' : 'hidden'} flex flex-col ${theme ? "bg-slate-800 shadow-gray-800" : "bg-white shadow-slate-300" } py-2 px-3 rounded-lg w-[30%] h-[220px] overflow-y-scroll ${index > 0 && index % 3 ? "ml-6": ""} ${index > 2? "mt-2" : ""} shadow-lg hover:shadow-none cursor-pointer`}>
                                                 <div className='font-semibold'>{item.name}</div>
                                                 <div className='text-sm mt-2'>{item.text}</div>
                                             </div>

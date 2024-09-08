@@ -1,12 +1,12 @@
 import { useContext, useState, useEffect, useRef } from "react"
 import { ThemeContext, widMenuContext } from "../App"
-import { useSelector, useDispatch } from "react-redux"
+import { useSelector } from "react-redux"
 import { RootState } from "../utils/store"
 import { widgetTS } from "../types"
-import { toggleWidget } from "../utils/categorySlice"
+import MenuItem from "./MenuItem"
 
 const WidMenu = () => {
-  let {theme, toggleTheme} = useContext(ThemeContext)
+  let {theme} = useContext(ThemeContext)
   let {widMenu, toggleWidMenu} = useContext(widMenuContext)
   let catList = useSelector((state:RootState) => state.categories.value)
   let [currCat, resetCat] = useState<number>(0)
@@ -25,7 +25,6 @@ const WidMenu = () => {
     }, [ref]);
   }
   outsideClicker(wrapperRef)
-  let dispatch = useDispatch()
   return (
     <div className={`${widMenu ? "" : "hidden"} cursor-pointer fixed top-0 w-full h-full backdrop-blur ${theme ? "bg-slate-800/50" : "bg-slate-400/50"}`}>
       <div ref={wrapperRef} className={`absolute cursor-default right-0 h-full w-[500px] ${theme ? "bg-slate-800" : 'bg-slate-300'}`}>
@@ -45,24 +44,9 @@ const WidMenu = () => {
         <div className="flex flex-col mt-4">
           {
             catList[currCat].widgets.map((item: widgetTS, index: number) => {
-              let [checked, toggleChecked] = useState<boolean>(catList[currCat].widgets[index].checked)
-              function togglerWid(){
-                let toggleObject = {
-                  catIndex: currCat,
-                  widIndex: index,
-                  checked: !checked
-                }
-                dispatch(toggleWidget(toggleObject))
-                toggleChecked(!checked)
-              }
-              return(
-                <div className="px-4 text-xs py-2 border border-slate-500 m-2 rounded" key={index}>
-                  <label className="flex items-center">
-                    <input className={`mr-4 ${theme ? "accent-white" : "accent-black"}`} type="checkbox" checked={checked} onChange={togglerWid}/>
-                    <span>{item.name}</span>
-                  </label>
-                </div>
-              )
+             return (
+              <MenuItem key={index} catIndex={currCat} object={item} index={index} theme={theme} />
+             )
             })
           }
         </div>
